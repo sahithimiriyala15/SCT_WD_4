@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow • Smart To-Do Manager</title>
+<!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+<!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">⚡ TaskFlow</div>
+  </div>
+<!-- MAIN -->
+  <div class="main">
+    <div class="container">
+      <h2>Manage Your Tasks Efficiently 🚀</h2>
+
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter task...">
+      </div>
+
+      <div class="input-group">
+        <input type="date" id="dateInput">
+        <input type="time" id="timeInput">
+        <button onclick="addTask()">Add</button>
+      </div>
+
+      <div class="list" id="taskList"></div>
+    </div>
+  </div>
+<!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
